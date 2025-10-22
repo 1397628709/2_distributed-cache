@@ -1,9 +1,9 @@
 package geecache
 
 import (
+	pb "Dcache/7_proto-buf/geecache/geecachepb"
+	"Dcache/7_proto-buf/geecache/singleflight"
 	"fmt"
-	pb "geecache/geecachepb"
-	"geecache/singleflight"
 	"log"
 	"sync"
 )

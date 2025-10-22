@@ -1,9 +1,9 @@
 package geecache
 
 import (
+	"Dcache/7_proto-buf/geecache/consistenthash"
+	pb "Dcache/7_proto-buf/geecache/geecachepb"
 	"fmt"
-	"geecache/consistenthash"
-	pb "geecache/geecachepb"
 	"io/ioutil"
 	"log"
 	"net/http"
